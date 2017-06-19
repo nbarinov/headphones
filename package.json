@@ -1,0 +1,29 @@
+{
+  "name": "headphones-template",
+  "version": "1.0.0",
+  "description": "Лендинг для продажи наушников",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbarinov/headphones-template.git"
+  },
+  "author": "Nikita Barinov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nbarinov/headphones-template/issues"
+  },
+  "homepage": "https://github.com/nbarinov/headphones-template#readme",
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.4.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "rimraf": "^2.6.1"
+  }
+}

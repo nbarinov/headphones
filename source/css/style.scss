@@ -1,0 +1,25 @@
+@import "../../node_modules/normalize.css/normalize.css";
+
+@import "variables";
+@import "fonts";
+@import "mixins";
+
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-color: $bg-color;
+}
+
+@import "blocks/page-header";
+@import "blocks/main-nav";
+@import "blocks/page-main";
+@import "blocks/banner";
+@import "blocks/page-aside.scss";
+@import "blocks/page-footer";

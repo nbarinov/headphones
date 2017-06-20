@@ -1,0 +1,43 @@
+.main-nav {}
+
+.main-nav__toggle {
+  @include visible-hidden;
+}
+
+.main-nav__wrapper {
+  width: 28.8vw;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 16px 0;
+  list-style: none;
+}
+
+.main-nav__item a {
+  display: block;
+
+  font-family: $roboto-regular;
+  font-size: 1.13vw;
+  color: $text-color;
+  text-decoration: none;
+
+  &::after {
+    display: block;
+    content: '';
+
+    width: 0;
+    height: 1px;
+
+    background-color: $text-color;
+
+    transition: 230ms width ease-out;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}

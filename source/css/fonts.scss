@@ -1,0 +1,39 @@
+@font-face {
+	font-family: $caslon-cp;
+	src: url('../fonts/CaslonCP.eot');
+	src: local('☺'), url('../fonts/CaslonCP.woff') format('woff'),
+    url('../fonts/CaslonCP.ttf') format('truetype'),
+    url('../fonts/CaslonCP.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: $roboto-regular;
+	src: url('../fonts/Roboto-Regular.eot');
+	src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype'),
+    url('../fonts/Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: $roboto-medium;
+	src: url('../fonts/Roboto-Medium.eot');
+	src: local('☺'), url('../fonts/Roboto-Medium.woff') format('woff'),
+    url('../fonts/Roboto-Medium.ttf') format('truetype'),
+    url('../fonts/Roboto-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: $roboto-bold;
+	src: url('../fonts/Roboto-Bold.eot');
+	src: local('☺'), url('../fonts/Roboto-Bold.woff') format('woff'),
+    url('../fonts/Roboto-Bold.ttf') format('truetype'),
+    url('../fonts/Roboto-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

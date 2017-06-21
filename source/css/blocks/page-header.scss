@@ -6,12 +6,11 @@
   left: 0;
 
   width: 100%;
-  max-width: 88.07vw;
+  max-width: 100vw;
   min-height: 4vw;
-  margin-left: 11.97vw;
-  padding: 2.1875vw 0;
+  padding: 2.1875vw 0 2.1875vw 11.97vw;
 
-  overflow-y: hidden;
+  overflow: hidden;
 
   &::after {
     content: '';

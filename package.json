@@ -2,6 +2,10 @@
   "name": "headphones-template",
   "version": "1.0.0",
   "description": "Лендинг для продажи наушников",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nbarinov/headphones-template.git"
